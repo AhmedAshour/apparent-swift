@@ -1,0 +1,20 @@
+# Changelog: Apparent for Swift
+
+All notable changes to this SDK. Versions follow [Semantic Versioning](https://semver.org); every Apparent SDK
+(Expo, Swift, Kotlin, Flutter) carries the same version number and sends the same wire format.
+
+## Unreleased
+
+## 0.2.1
+
+- Housekeeping release, no code changes: the public source no longer carries a signing team id in the Flutter example.
+
+## 0.2.0
+
+First release on Swift Package Manager (tag `0.2.0` on the public mirror).
+
+- Swift Package for iOS 15+ and macOS 12+, no dependencies, with a privacy manifest.
+- Same wire format and behaviour as `apparent-expo` 0.2.0 and passes the shared conformance scenario.
+- Offline queue, screens (`.apparentScreen`), properties, identify/reset, crashes, opt-out, consent, deep links,
+  tapped notifications, `beforeSend`, simulator flag, dropped count, wrong-key warning.
+- Batches say `"v": "swift-0.2.0"`.

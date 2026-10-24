@@ -1,0 +1,220 @@
+{
+  "saved": {
+    "v": 2,
+    "anon": "6ed289a213fdebf8a2e2baa561fe7825",
+    "anonSource": "reset",
+    "userId": null,
+    "props": {},
+    "optedOut": false,
+    "app": "1.0.0 (1)",
+    "queue": [
+      {
+        "n": "first_open",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "3dd9223729427efb844383a637b7fb92",
+        "a": "6ac42b243133d959ac4e3b5221bde5f2",
+        "u": null
+      },
+      {
+        "n": "app_open",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "a3bdd56b3c26dccf5cf4e213b84fb474",
+        "a": "6ac42b243133d959ac4e3b5221bde5f2",
+        "u": null,
+        "p": {
+          "cold": true
+        }
+      },
+      {
+        "n": "paywall_view",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "68ad8f4dcb2c8ad63a9af45ccb8f5160",
+        "a": "6ac42b243133d959ac4e3b5221bde5f2",
+        "u": null,
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "source": "onboarding",
+          "price": 4.99,
+          "count": 3,
+          "trial": true,
+          "coupon": null
+        }
+      },
+      {
+        "n": "screen_view",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "36827292914eb787a86513527aae16a4",
+        "a": "6ac42b243133d959ac4e3b5221bde5f2",
+        "u": null,
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "path": "/practice/recht",
+          "screen": "practice/[topic]"
+        }
+      },
+      {
+        "n": "screen_view",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "2dbe49b96ddcb636d67cd3182c5ffda5",
+        "a": "6ac42b243133d959ac4e3b5221bde5f2",
+        "u": null,
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "screen": "exam",
+          "from": "practice/[topic]"
+        }
+      },
+      {
+        "n": "purchase",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "ae171756250173067c1a0ea48ae4cbdf",
+        "a": "6ac42b243133d959ac4e3b5221bde5f2",
+        "u": "user-1",
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "product": "pro_lifetime"
+        }
+      },
+      {
+        "n": "after_logout",
+        "t": 1792765574759,
+        "s": "d7804aabf2a7c89baa4079b396ab578c",
+        "i": "d5da3dd702a28547a081cf530d9d62eb",
+        "a": "6ed289a213fdebf8a2e2baa561fe7825",
+        "u": null
+      },
+      {
+        "n": "error",
+        "t": 1792765574759,
+        "s": "d7804aabf2a7c89baa4079b396ab578c",
+        "i": "ef428f9a5da17e7c5481a7a81e5095af",
+        "a": "6ed289a213fdebf8a2e2baa561fe7825",
+        "u": null,
+        "p": {
+          "message": "Cannot read property 'score' of undefined",
+          "type": "TypeError",
+          "fatal": false,
+          "how": "boundary",
+          "stack": "TypeError: Cannot read property 'score' of undefined\nat file:///repo/sdk/swift/scripts/make-expo-fixture.ts:26:16"
+        }
+      }
+    ]
+  },
+  "body": {
+    "a": "einb",
+    "k": "write-key",
+    "v": "0.2.0",
+    "sa": 1792765574759,
+    "d": {
+      "platform": "ios",
+      "os": "18.0",
+      "app": "1.0.0",
+      "build": "1",
+      "model": null,
+      "locale": "en-DE",
+      "region": "DE",
+      "tz": "Europe/Berlin",
+      "anon": "6ac42b243133d959ac4e3b5221bde5f2",
+      "user": null
+    },
+    "e": [
+      {
+        "n": "first_open",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "3dd9223729427efb844383a637b7fb92"
+      },
+      {
+        "n": "app_open",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "a3bdd56b3c26dccf5cf4e213b84fb474",
+        "p": {
+          "cold": true
+        }
+      },
+      {
+        "n": "paywall_view",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "68ad8f4dcb2c8ad63a9af45ccb8f5160",
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "source": "onboarding",
+          "price": 4.99,
+          "count": 3,
+          "trial": true,
+          "coupon": null
+        }
+      },
+      {
+        "n": "screen_view",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "36827292914eb787a86513527aae16a4",
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "path": "/practice/recht",
+          "screen": "practice/[topic]"
+        }
+      },
+      {
+        "n": "screen_view",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "2dbe49b96ddcb636d67cd3182c5ffda5",
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "screen": "exam",
+          "from": "practice/[topic]"
+        }
+      },
+      {
+        "n": "purchase",
+        "t": 1792765574759,
+        "s": "9096aefb1e9fa3aef707cd54d16a5778",
+        "i": "ae171756250173067c1a0ea48ae4cbdf",
+        "p": {
+          "language": "de",
+          "plan": "free",
+          "product": "pro_lifetime"
+        },
+        "u": "user-1"
+      },
+      {
+        "n": "after_logout",
+        "t": 1792765574759,
+        "s": "d7804aabf2a7c89baa4079b396ab578c",
+        "i": "d5da3dd702a28547a081cf530d9d62eb",
+        "a": "6ed289a213fdebf8a2e2baa561fe7825"
+      },
+      {
+        "n": "error",
+        "t": 1792765574759,
+        "s": "d7804aabf2a7c89baa4079b396ab578c",
+        "i": "ef428f9a5da17e7c5481a7a81e5095af",
+        "p": {
+          "message": "Cannot read property 'score' of undefined",
+          "type": "TypeError",
+          "fatal": false,
+          "how": "boundary",
+          "stack": "TypeError: Cannot read property 'score' of undefined\nat file:///repo/sdk/swift/scripts/make-expo-fixture.ts:26:16"
+        },
+        "a": "6ed289a213fdebf8a2e2baa561fe7825"
+      }
+    ]
+  }
+}
