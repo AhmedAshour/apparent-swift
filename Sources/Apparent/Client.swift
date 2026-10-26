@@ -113,7 +113,7 @@ func monotonicNow() -> TimeInterval { TimeInterval(clock_gettime_nsec_np(CLOCK_M
 /// - each request has a time limit, and retries wait longer each time (and honour Retry-After);
 /// - the batch carries the phone's clock, so the server can correct phones set to the wrong time; it ignores duplicates.
 public final class ApparentClient: @unchecked Sendable {
-    public static let sdkVersion = "0.2.1"
+    public static let sdkVersion = "0.2.2"
     /// What goes in the batch's `v`: which SDK and version sent it (the Expo SDK sends its plain version).
     static let wireVersion = "swift-\(sdkVersion)"
     static let stateFile = "state-v2.json"

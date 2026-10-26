@@ -6,12 +6,12 @@ no dependencies. It sends exactly what the Expo SDK (`sdk/expo`) sends, so a Swi
 ## Install
 
 Xcode: File › Add Package Dependencies… › `https://github.com/AhmedAshour/apparent-swift` › Up to Next Major
-Version from `0.2.1`, product `Apparent`.
+Version from `0.2.2`, product `Apparent`.
 
 `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/AhmedAshour/apparent-swift", from: "0.2.1"),
+.package(url: "https://github.com/AhmedAshour/apparent-swift", from: "0.2.2"),
 // target dependencies:
 .product(name: "Apparent", package: "apparent-swift"),
 ```
@@ -35,7 +35,7 @@ Apparent.setProperties(["language": "de", "plan": "free"])     // on every event
 Apparent.identify(userID: user.id)                             // signed in; Apparent.logout() when they sign out
 ```
 
-For development builds: `Apparent.start(app:key:disabled: true)` stores and sends nothing.
+For development builds: `Apparent.start(app: "einb", key: "<write key>", disabled: true)` stores and sends nothing.
 
 ## What else it does
 
@@ -130,4 +130,4 @@ The example app otherwise sends to `http://127.0.0.1:8787` (the fake intake), ne
 
 `Tests/ApparentTests/Fixtures/expo-batch.json` is recorded from the Expo SDK (`node --import ./sdk/expo/test/setup.mjs
 sdk/swift/scripts/make-expo-fixture.ts`); the tests check that the Swift SDK reads its saved queue and sends the same batch.
-Batches say `"v": "swift-0.2.1"`.
+Batches say `"v": "swift-0.2.2"`.

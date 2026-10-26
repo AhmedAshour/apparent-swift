@@ -3,7 +3,9 @@
 All notable changes to this SDK. Versions follow [Semantic Versioning](https://semver.org); every Apparent SDK
 (Expo, Swift, Kotlin, Flutter) carries the same version number and sends the same wire format.
 
-## Unreleased
+## 0.2.2
+
+- No code changes. README: the `disabled` example is a real call (`Apparent.start(app:key:disabled:)`).
 
 ## 0.2.1
 
@@ -11,7 +13,7 @@ All notable changes to this SDK. Versions follow [Semantic Versioning](https://s
 
 ## 0.2.0
 
-First release on Swift Package Manager (tag `0.2.0` on the public mirror).
+First release on Swift Package Manager (the public mirror's tags start at `0.2.1`).
 
 - Swift Package for iOS 15+ and macOS 12+, no dependencies, with a privacy manifest.
 - Same wire format and behaviour as `apparent-expo` 0.2.0 and passes the shared conformance scenario.
